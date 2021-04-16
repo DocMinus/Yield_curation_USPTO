@@ -1,5 +1,5 @@
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-# Yield Curation of UPTSO rsmi/csv files <br>(Lowe/Schwaller datasets)
+# Yield Curation of USPTO rsmi/csv files <br>(Lowe/Schwaller datasets)
 
 ## About
 As the title states, these scripts curate (deconvolute) the yield columns contained in aforementioned public data sets.<br>
@@ -56,7 +56,7 @@ The scripts are light weight without any error checking or cmd line inputs, etc.
 #### Output 
 new columns (independent of filtration of input columns)
 - ID (optional)
-- Yield (the curated on, in %)
+- Yield (the curated one, in %)
 
 #### How the yield is curated
 - Although some values look as if they are due to calculation error (factor 10 or 100), or a typo (missing .),
@@ -69,7 +69,7 @@ new columns (independent of filtration of input columns)
 - An estimated <0.1% of incorrect entries are not corrected and end up being also filtered out.
 
 #### Reference
-See Figshare #TODO
+figshare: https://doi.org/10.6084/m9.figshare.14414039
 
 #### License
-MIT license
+MIT license, see license file for details.
